@@ -75,4 +75,9 @@ resource "aws_instance" "apache2_server" {
     module.generic_sg_egress
   ]
 
+#  lifecycle {
+#    prevent_destroy = true
+#  }
+
+
 }
